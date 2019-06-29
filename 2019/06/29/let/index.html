@@ -6,25 +6,26 @@
     
 
     
-    <title>Hello World | web前端</title>
+    <title>let&amp;const命令 | web前端</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-        <meta name="keywords" content>
+        <meta name="keywords" content="暂时性死区">
     
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="1. let命令let所声明的变量，只在let命令所在的代码块内有效。 let命令声明变量，不存在变量提升。 暂时性死区 在代码块内，使用let命令声明变量之前，该变量都是不可用的。 1234567891011if (true) &amp;#123;  // TDZ开始  tmp = &amp;apos;abc&amp;apos;; // ReferenceError  console.log(tmp); // Ref">
+<meta name="keywords" content="暂时性死区">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/06/28/hello-world/index.html">
+<meta property="og:title" content="let&amp;const命令">
+<meta property="og:url" content="http://yoursite.com/2019/06/29/let/index.html">
 <meta property="og:site_name" content="web前端">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="1. let命令let所声明的变量，只在let命令所在的代码块内有效。 let命令声明变量，不存在变量提升。 暂时性死区 在代码块内，使用let命令声明变量之前，该变量都是不可用的。 1234567891011if (true) &amp;#123;  // TDZ开始  tmp = &amp;apos;abc&amp;apos;; // ReferenceError  console.log(tmp); // Ref">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2936772815,1862531731&fm=26&gp=0.jpg">
-<meta property="og:updated_time" content="2019-06-28T08:00:03.415Z">
+<meta property="og:image" content="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1980652300,3234760520&fm=26&gp=0.jpg">
+<meta property="og:updated_time" content="2019-06-29T03:43:24.443Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="twitter:image" content="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2936772815,1862531731&fm=26&gp=0.jpg">
+<meta name="twitter:title" content="let&amp;const命令">
+<meta name="twitter:description" content="1. let命令let所声明的变量，只在let命令所在的代码块内有效。 let命令声明变量，不存在变量提升。 暂时性死区 在代码块内，使用let命令声明变量之前，该变量都是不可用的。 1234567891011if (true) &amp;#123;  // TDZ开始  tmp = &amp;apos;abc&amp;apos;; // ReferenceError  console.log(tmp); // Ref">
+<meta name="twitter:image" content="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1980652300,3234760520&fm=26&gp=0.jpg">
     
 
     
@@ -137,19 +138,19 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    未分类
+    <a class="page-title-link" href="/categories/ES6/">ES6</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            <article id="post-hello-world" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="post-let" class="article article-single article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        Hello World
+        let&amp;const命令
         </h1>
     
 
@@ -159,31 +160,80 @@
             <div class="article-meta">
                 
     <div class="article-date">
-        <a href="/2019/06/28/hello-world/" class="article-date">
-            <time datetime="2019-06-28T03:16:31.403Z" itemprop="datePublished">2019-06-28</time>
+        <a href="/2019/06/29/let/" class="article-date">
+            <time datetime="2019-06-29T02:33:31.000Z" itemprop="datePublished">2019-06-29</time>
         </a>
     </div>
 
 		
 
                 
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/暂时性死区/">暂时性死区</a>
+    </div>
+
             </div>
         
         
         <div class="article-entry" itemprop="articleBody">
-            <p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2936772815,1862531731&fm=26&gp=0.jpg" alt><br>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+            <p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1980652300,3234760520&fm=26&gp=0.jpg" alt></p>
+<h3 id="1-let命令"><a href="#1-let命令" class="headerlink" title="1. let命令"></a>1. let命令</h3><p>let所声明的变量，只在let命令所在的代码块内有效。</p>
+<p>let命令声明变量，<strong>不存在变量提升</strong>。</p>
+<p><strong>暂时性死区</strong></p>
+<p>在代码块内，使用let命令声明变量之前，该变量都是不可用的。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">if (true) &#123;</span><br><span class="line">  // TDZ开始</span><br><span class="line">  tmp = &apos;abc&apos;; // ReferenceError</span><br><span class="line">  console.log(tmp); // ReferenceError</span><br><span class="line"></span><br><span class="line">  let tmp; // TDZ结束</span><br><span class="line">  console.log(tmp); // undefined</span><br><span class="line"></span><br><span class="line">  tmp = 123;</span><br><span class="line">  console.log(tmp); // 123</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>“暂时性死区”也意味着typeof不再是一个百分之百安全的操作。</p>
+<p><strong>不允许重复声明</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">function func(arg)&#123;</span><br><span class="line">		let arg;</span><br><span class="line">	&#125;</span><br><span class="line">	func();//报错</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>单独块级内部不会报错</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">function func(arg)&#123;</span><br><span class="line">		&#123;</span><br><span class="line">			let arg = 2;</span><br><span class="line">			console.log(arg);</span><br><span class="line">		&#125;</span><br><span class="line">		console.log(arg);</span><br><span class="line">	&#125;</span><br><span class="line">	func(1);//依次打印2  1</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="2-块级作用域"><a href="#2-块级作用域" class="headerlink" title="2. 块级作用域"></a>2. 块级作用域</h3><p><strong>为什么需要块级作用域</strong></p>
+<ul>
+<li><p>内层变量可能会覆盖外层变量</p>
+</li>
+<li><p>var声明变量：用来计数的循环变量泄露为全局变量</p>
+</li>
+</ul>
+<p><strong>ES6块级作用域</strong></p>
+<ul>
+<li><p>let为 JavaScript 新增了块级作用域。</p>
+</li>
+<li><p>ES6 允许块级作用域的任意嵌套。</p>
+</li>
+<li><p>内层作用域可以定义外层作用域的同名变量。</p>
+</li>
+</ul>
+<p>-块级作用域的出现，实际上使得获得广泛应用的立即执行函数表达式（IIFE）不再必要了。</p>
+<p><strong>块级作用域与函数声明</strong></p>
+<p>考虑到环境导致的行为差异太大，应该避免在块级作用域内声明函数。如果确实需要，也应该写成函数表达式，而不是函数声明语句。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 块级作用域内部，优先使用函数表达式</span><br><span class="line">	&#123;</span><br><span class="line">	  let a = &apos;secret&apos;;</span><br><span class="line">	  let f = function () &#123;</span><br><span class="line">	    return a;</span><br><span class="line">	  &#125;;</span><br><span class="line">	  console.log(f());//secret</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>注意：ES6的块级作用域必须有大括号，如果没有大括号，JavaScript 引擎就认为不存在块级作用域。</p>
+<h3 id="3-const命令"><a href="#3-const命令" class="headerlink" title="3. const命令"></a>3. const命令</h3><p>const声明一个只读的常量。一旦声明，常量的值就不能改变。且只在声明所在的块级作用域内有效。</p>
+<p>注意：const一旦声明变量，就必须立即初始化，不能留到以后赋值。</p>
+<p><strong>本质</strong></p>
+<p>const实际上保证的，并不是变量的值不得改动，而是变量指向的那个内存地址所保存的数据不得改动。</p>
+<p><strong>ES6声明变量的六种方法</strong></p>
+<p>var、function、let、const、import、class</p>
+<h3 id="4-顶层对象的属性"><a href="#4-顶层对象的属性" class="headerlink" title="4. 顶层对象的属性"></a>4. 顶层对象的属性</h3><p>顶层对象，在浏览器环境指的是window对象，在 Node 指的是global对象。ES5 之中，顶层对象的属性与全局变量是等价的。</p>
+<p>顶层对象的属性与全局变量挂钩，被认为是 JavaScript 语言最大的设计败笔之一。</p>
+<p>ES6 为了改变这一点，一方面规定，为了保持兼容性，var命令和function命令声明的全局变量，依旧是顶层对象的属性；另一方面规定，let命令、const命令、class命令声明的全局变量，不属于顶层对象的属性。也就是说，从 ES6 开始，全局变量将逐步与顶层对象的属性脱钩。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var a = 1;</span><br><span class="line">	console.log(window.a);//1</span><br><span class="line"></span><br><span class="line">	let b = 2;</span><br><span class="line">	console.log(window.b);//undefind</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-globalThis对象"><a href="#5-globalThis对象" class="headerlink" title="5. globalThis对象"></a>5. globalThis对象</h3><p>JavaScript 语言存在一个顶层对象，它提供全局环境（即全局作用域），所有代码都是在这个环境中运行。但是，顶层对象在各种实现里面是不统一的。</p>
+<ul>
+<li><p>浏览器里面，顶层对象是window，但 Node 和 Web Worker 没有window。</p>
+</li>
+<li><p>浏览器和 Web Worker 里面，self也指向顶层对象，但是 Node 没有self。</p>
+</li>
+<li><p>Node 里面，顶层对象是global，但其他环境都不支持。</p>
+<p>现在有一个提案，在语言标准的层面，引入globalThis作为顶层对象。也就是说，任何环境下，globalThis都是存在的，都可以从它拿到顶层对象，指向全局环境下的this。</p>
+</li>
+</ul>
 
         </div>
         <footer class="article-footer">
@@ -191,7 +241,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2019/06/28/hello-world/" data-id="cjxgze5kv000264su45c8av4f" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://yoursite.com/2019/06/29/let/" data-id="cjxgze5kf000064su31s79a5w" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -261,17 +311,21 @@
             "@type": "Person",
             "name": "reallyfond"
         },
-        "headline": "Hello World",
-        "image": "http://yoursite.comhttps://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2936772815,1862531731&fm=26&gp=0.jpg",
-        "keywords": "",
-        "genre": "",
-        "datePublished": "2019-06-28",
-        "dateCreated": "2019-06-28",
-        "dateModified": "2019-06-28",
-        "url": "http://yoursite.com/2019/06/28/hello-world/",
-        "description": "Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick"
-        "wordCount": 146
+        "headline": "let&amp;const命令",
+        "image": "http://yoursite.comhttps://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1980652300,3234760520&fm=26&gp=0.jpg",
+        "keywords": "暂时性死区",
+        "genre": "ES6",
+        "datePublished": "2019-06-29",
+        "dateCreated": "2019-06-29",
+        "dateModified": "2019-06-29",
+        "url": "http://yoursite.com/2019/06/29/let/",
+        "description": "
+1. let命令let所声明的变量，只在let命令所在的代码块内有效。
+let命令声明变量，不存在变量提升。
+暂时性死区
+在代码块内，使用let命令声明变量之前，该变量都是不可用的。
+1234567891011if (true) &#123;  // TDZ开始  tmp = &apos;abc&apos;; // ReferenceError  console.log(tmp); // Ref"
+        "wordCount": 217
     }
 </script>
 
@@ -351,16 +405,12 @@ Quick"
         
 <nav id="article-nav">
     
-        <a href="/2019/06/28/我的第一篇文章/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">下一篇</strong>
-        <p class="article-nav-title">
-        
-            JS事件
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
     
+        <a href="/2019/06/28/我的第一篇文章/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">上一篇</strong>
+        <p class="article-nav-title">JS事件</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
     
 </nav>
 
@@ -532,7 +582,7 @@ Quick"
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://yoursite.com/2019/06/28/hello-world/';
+    var disqus_url = 'http://yoursite.com/2019/06/29/let/';
     
     (function() {
     var dsq = document.createElement('script');

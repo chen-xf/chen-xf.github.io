@@ -6,17 +6,21 @@
     
 
     
-    <title>归档 | web前端</title>
+    <title>address | web前端</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="web前端">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+    <meta name="description" content="这是一个地址">
+<meta property="og:type" content="website">
+<meta property="og:title" content="address">
+<meta property="og:url" content="http://yoursite.com/address/index.html">
 <meta property="og:site_name" content="web前端">
+<meta property="og:description" content="这是一个地址">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-28T12:05:45.331Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="web前端">
+<meta name="twitter:title" content="address">
+<meta name="twitter:description" content="这是一个地址">
     
 
     
@@ -129,183 +133,130 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-archive"></i>归档
+    <em class="page-title-link" data-url="/address/index.html">address</em>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="page-" class="article article-single article-type-page" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2019" class="archive-year"><i class="icon fa fa-calendar-o"></i>2019</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2019/06/29/let/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1980652300,3234760520&fm=26&gp=0.jpg)" alt="let&amp;const命令" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2019/06/29/let/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/ES6/">ES6</a>
-            </div>
-            <div class="date"><time datetime="2019-06-29T02:33:31.000Z" itemprop="datePublished">2019-06-29</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2019/06/29/let/">let&amp;const命令</a>
+        address
         </h1>
     
 
-        <p class="article-excerpt">
+            </header>
+        
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <p>这是一个地址</p>
+
+        </div>
+        <footer class="article-footer">
             
-1. let命令let所声明的变量，只在let命令所在的代码块内有效。
-let命令声明变量，不存在变量提升。
-暂时性死区
-在代码块内，使用let命令声明变量之前，该变量都是不可用的。
-1234567891011if (true) &#123;  // TDZ开始  tmp = &apos;abc&apos;; // ReferenceError  console.log(tmp); // Ref
-        </p>
+
+
+
+    <a data-url="http://yoursite.com/address/index.html" data-id="cjxgze5kt000164suf5y5u880" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "reallyfond"
+        },
+        "headline": "address",
+        "image": "http://yoursite.com",
+        
+        
+        "datePublished": "2019-06-28",
+        "dateCreated": "2019-06-28",
+        "dateModified": "2019-06-28",
+        "url": "http://yoursite.com/address/index.html",
+        "description": "这是一个地址
+"
+        "wordCount": 1
+    }
+</script>
+
 </article>
-    
 
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2019/06/28/我的第一篇文章/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2700429587,636057964&fm=26&gp=0.jpg)" alt="JS事件" class="thumbnail-image"></span>
-    
+    <section id="comments">
     
         
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2019/06/28/我的第一篇文章/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/JavaScript/">JavaScript</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/JavaScript/事件/">事件</a>
-            </div>
-            <div class="date"><time datetime="2019-06-28T03:32:49.000Z" itemprop="datePublished">2019-06-28</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2019/06/28/我的第一篇文章/">JS事件</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            一、为元素绑定事件（DOM）综合一种，但是不兼容，所以有两种
-
-对象.addEventListener(“事件类型”,事件处理函数 ,false );—-谷歌火狐支持，IE8不支持
-
-为按钮绑定点击事件
-参数1：事件的类型—–事件的名字，没有on
-参数2：事件处理函数—–函数（命名函数，匿名函数）
-参数3：布尔类型，目前就写false
-12345my$(&quot;btn&quot;).addEv
-        </p>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
-</article>
-    
-        </div>
-    
 
     
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2019/06/28/hello-world/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2936772815,1862531731&fm=26&gp=0.jpg)" alt="Hello World" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2019/06/28/hello-world/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            
-            </div>
-            <div class="date"><time datetime="2019-06-28T03:16:31.403Z" itemprop="datePublished">2019-06-28</time></div>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2019/06/28/hello-world/">Hello World</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-
-    </div></section>
+    </section>
 
 
 
@@ -535,11 +486,13 @@ Quick
     var disqus_shortname = 'hexo-theme-hueman';
     
     
+    var disqus_url = 'http://yoursite.com/address/index.html';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
